@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 
-# display a welcome message
-print("The Test Scores application")
-print()
-print("Enter test scores")
-print("Enter 'end' to end input")
-print("======================")
-
 yn = "y"
 while yn == "y":
+	
+# display a welcome message
+	print("The Test Scores application")
+	print()
+	print("Enter test scores")
+	print("Enter 'end' to end input")
+	print("======================")
+
 	# initialize variables
 	counter = 0
 	score_total = 0
